@@ -1,0 +1,18 @@
+controller_list:
+  - name: fake_wam_arm_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - wam/base_yaw_joint
+      - wam/shoulder_pitch_joint
+      - wam/shoulder_yaw_joint
+      - wam/elbow_pitch_joint
+      - wam/wrist_yaw_joint
+      - wam/wrist_pitch_joint
+      - wam/palm_yaw_joint
+  - name: fake_hand_controller
+    type: $(arg fake_execution_type)
+    joints:
+      []
+initial:  # Define initial robot poses per group
+  - group: wam_arm
+    pose: home
