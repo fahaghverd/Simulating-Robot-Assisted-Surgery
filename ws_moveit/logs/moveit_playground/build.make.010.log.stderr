@@ -1,0 +1,21 @@
+[01m[K/home/funzi/Simulating-Robot-Assisted-Surgery/ws_moveit/src/moveit_playground/src/wam_sim_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/funzi/Simulating-Robot-Assisted-Surgery/ws_moveit/src/moveit_playground/src/wam_sim_node.cpp:86:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit_visual_tools::MoveItVisualTools::publishAxisLabeled(geometry_msgs::Pose&, const char [7], rviz_visual_tools::colors)[m[K’
+   86 |     visual_tools.publishAxisLabeled(target_pose1, "Plan 2", rvt::RED[01;31m[K)[m[K; // Adjust label position if needed
+      |                                                                     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/moveit_visual_tools/moveit_visual_tools.h:44[m[K,
+                 from [01m[K/home/funzi/Simulating-Robot-Assisted-Surgery/ws_moveit/src/moveit_playground/src/wam_sim_node.cpp:9[m[K:
+[01m[K/opt/ros/noetic/include/rviz_visual_tools/rviz_visual_tools.h:771:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishAxisLabeled(const Isometry3d&, const string&, rviz_visual_tools::scales, rviz_visual_tools::colors)[m[K’
+  771 |   bool [01;36m[KpublishAxisLabeled[m[K(const Eigen::Isometry3d& pose, const std::string& label, scales scale = MEDIUM,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rviz_visual_tools/rviz_visual_tools.h:771:52:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Isometry3d&[m[K’ {aka ‘[01m[Kconst Eigen::Transform<double, 3, 1>&[m[K’}
+  771 |   bool publishAxisLabeled([01;36m[Kconst Eigen::Isometry3d& pose[m[K, const std::string& label, scales scale = MEDIUM,
+      |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/noetic/include/rviz_visual_tools/rviz_visual_tools.h:773:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::publishAxisLabeled(const Pose&, const string&, rviz_visual_tools::scales, rviz_visual_tools::colors)[m[K’
+  773 |   bool [01;36m[KpublishAxisLabeled[m[K(const geometry_msgs::Pose& pose, const std::string& label, scales scale = MEDIUM,
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rviz_visual_tools/rviz_visual_tools.h:773:93:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Krviz_visual_tools::colors[m[K’ to ‘[01m[Krviz_visual_tools::scales[m[K’
+  773 |   bool publishAxisLabeled(const geometry_msgs::Pose& pose, const std::string& label, [01;36m[Kscales scale = MEDIUM[m[K,
+      |                                                                                      [01;36m[K~~~~~~~^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/wam_sim_node.dir/build.make:63: CMakeFiles/wam_sim_node.dir/src/wam_sim_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:675: CMakeFiles/wam_sim_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

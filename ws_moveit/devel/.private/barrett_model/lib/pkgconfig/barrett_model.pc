@@ -1,0 +1,8 @@
+prefix=/home/funzi/Simulating-Robot-Assisted-Surgery/ws_moveit/devel/.private/barrett_model
+
+Name: barrett_model
+Description: Description of barrett_model
+Version: 0.5.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

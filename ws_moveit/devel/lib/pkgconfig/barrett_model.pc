@@ -1,0 +1,1 @@
+/home/funzi/Simulating-Robot-Assisted-Surgery/ws_moveit/devel/.private/barrett_model/lib/pkgconfig/barrett_model.pc

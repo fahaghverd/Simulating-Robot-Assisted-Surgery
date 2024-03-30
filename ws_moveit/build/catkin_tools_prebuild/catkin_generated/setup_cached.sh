@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/hulk/ws_moveit/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
-export PWD='/home/hulk/ws_moveit/build/catkin_tools_prebuild'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/hulk/ws_moveit/devel/.private/catkin_tools_prebuild/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/hulk/ws_moveit/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/funzi/Simulating-Robot-Assisted-Surgery/ws_moveit/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
+export PWD='/home/funzi/Simulating-Robot-Assisted-Surgery/ws_moveit/build/catkin_tools_prebuild'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/funzi/Simulating-Robot-Assisted-Surgery/ws_moveit/devel/.private/catkin_tools_prebuild/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/funzi/Simulating-Robot-Assisted-Surgery/ws_moveit/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"

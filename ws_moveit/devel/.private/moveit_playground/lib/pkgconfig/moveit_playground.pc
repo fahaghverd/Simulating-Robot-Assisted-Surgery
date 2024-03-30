@@ -1,0 +1,8 @@
+prefix=/home/funzi/Simulating-Robot-Assisted-Surgery/ws_moveit/devel/.private/moveit_playground
+
+Name: moveit_playground
+Description: Description of moveit_playground
+Version: 0.0.0
+Cflags: -I/usr/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: moveit_core moveit_visual_tools moveit_ros_planning_interface interactive_markers tf2_geometry_msgs

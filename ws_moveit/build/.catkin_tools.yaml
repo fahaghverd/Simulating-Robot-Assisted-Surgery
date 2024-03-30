@@ -1,6 +1,6 @@
-devel_space: /home/hulk/ws_moveit/devel
+devel_space: /home/funzi/Simulating-Robot-Assisted-Surgery/ws_moveit/devel
 install: false
-install_space: /home/hulk/ws_moveit/install
+install_space: /home/funzi/Simulating-Robot-Assisted-Surgery/ws_moveit/install
 profile: default
-source_space: /home/hulk/ws_moveit/src
-workspace: /home/hulk/ws_moveit
+source_space: /home/funzi/Simulating-Robot-Assisted-Surgery/ws_moveit/src
+workspace: /home/funzi/Simulating-Robot-Assisted-Surgery/ws_moveit

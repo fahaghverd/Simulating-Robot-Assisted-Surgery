@@ -1,0 +1,8 @@
+prefix=/home/funzi/Simulating-Robot-Assisted-Surgery/ws_moveit/install
+
+Name: wam_moveit_config
+Description: Description of wam_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

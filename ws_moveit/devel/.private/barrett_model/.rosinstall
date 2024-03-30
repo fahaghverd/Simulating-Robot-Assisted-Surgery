@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/funzi/Simulating-Robot-Assisted-Surgery/ws_moveit/devel/.private/barrett_model/setup.sh

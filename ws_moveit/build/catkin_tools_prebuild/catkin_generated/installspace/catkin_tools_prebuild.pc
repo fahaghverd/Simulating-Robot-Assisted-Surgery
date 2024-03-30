@@ -1,4 +1,4 @@
-prefix=/home/hulk/ws_moveit/install
+prefix=/home/funzi/Simulating-Robot-Assisted-Surgery/ws_moveit/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

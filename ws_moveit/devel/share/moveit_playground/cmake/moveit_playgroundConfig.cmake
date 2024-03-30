@@ -1,0 +1,1 @@
+/home/funzi/Simulating-Robot-Assisted-Surgery/ws_moveit/devel/.private/moveit_playground/share/moveit_playground/cmake/moveit_playgroundConfig.cmake

@@ -1,2 +1,0 @@
-moveit/moveit
-/home/hulk/ws_moveit/devel/.private/moveit/cmake.lock /home/hulk/ws_moveit/devel/./cmake.lock
